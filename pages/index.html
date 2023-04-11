@@ -16,7 +16,43 @@
   </head>
   <body>
     <header>
-      <nav class="container navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <img src="/assets/eggies-hotel-and-suits-logo.png" width="150px" alt="hotel logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a>FAQ</li>
+                  <li><a class="dropdown-item" href="#">Complaints</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Enquiry</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Reservations</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="container navbar">
         <div class="branding">
           <img
             src="../assets/eggies-hotel-and-suits-logo.png"
@@ -33,11 +69,10 @@
           <li><a href="#">Bookings</a></li>
           <li><a href="#">customer care</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <main id="hero">
       <div class="container">
-        <!-- <img src="../assets/hotel photo2.jpg" width="100%" alt=""> -->
         <div class="hero">
           <div class="hero-content">
             <div class="hero-content-text">
@@ -64,7 +99,7 @@
           class="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner container">
             <div class="carousel-item active">
               <img src="../assets/room1.jpg" class="d-block w-100" alt="..." />
             </div>
@@ -97,8 +132,8 @@
       </div>
     </section>
     <!-- accordion -->
-    <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item">
+    <div class="accordion mb-5"  id="accordionPanelsStayOpenExample">
+      <div class="accordion-item container">
         <h2 class="accordion-header">
           <button
             class="accordion-button"
@@ -115,7 +150,7 @@
           id="panelsStayOpen-collapseOne"
           class="accordion-collapse collapse show"
         >
-          <div class="accordion-body">
+          <div class="accordion-body container">
             <strong>Our facilities outline ; </strong> ||
             <img src="../assets/pool_FILL0_wght400_GRAD0_opsz48.svg" alt="" />
             Outdoor swimming pool ||
@@ -161,7 +196,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item container">
         <h2 class="accordion-header">
           <button
             class="accordion-button collapsed"
@@ -196,7 +231,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item container">
         <h2 class="accordion-header">
           <button
             class="accordion-button collapsed"
@@ -213,7 +248,7 @@
           id="panelsStayOpen-collapseThree"
           class="accordion-collapse collapse"
         >
-          <div class="accordion-body">
+          <div class="accordion-body ">
             <strong>kindly follow the rules of our health guideline</strong>
             <br />
             In response to Coronavirus (COVID-19), additional safety and

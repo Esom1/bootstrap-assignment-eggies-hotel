@@ -3,10 +3,9 @@
   margin: auto;
 } */
 
-.branding{
+/* .branding{
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   margin-top: 2rem;
 }
 ul{
@@ -25,7 +24,7 @@ img{
 }
 a::hover{
   text-decoration: underline;
-}
+} */
 /* main */
 #hero{
   background-image: url(../assets/hotel-pool-1345952.jpg);
